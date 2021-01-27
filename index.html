@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AD GYM</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+        /* CSS Reset  */
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('image/Bg6.jpg');
+            background-size: 1500px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .left img {
+            width: 75px;
+            filter: invert(100%);
+
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid green; */
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            text-align: center;
+            line-height: 10px;
+        }
+
+        .right {
+            /* border: 2px solid palevioletred; */
+            position: absolute;
+            right: 34px;
+            top: 21px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .mid {
+            display: block;
+            /* border: 2px solid blue; */
+            margin: 20px auto;
+            width: 50%;
+            height: 46px;
+            font-size: 18px;
+            padding: 5px;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 19px;
+            padding: 8px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .btn {
+            /* border: 2px solid rgb(211, 52, 52); */
+            color: white;
+            padding: 2px 4px;
+            margin: 2px 12px;
+            background-color: rgb(66, 64, 64);
+            border-radius: 5px;
+            font-family: 'Baloo Bhai 2', cursive;
+            width: 66px;
+            cursor: pointer;
+        }
+
+        .container {
+            /* border: 2px solid green; */
+            position: absolute;
+            right: 29px;
+            width: 23%;
+            height: 50%;
+            padding: 8px 7px;
+            margin: 34px 5px;
+            text-align: center;
+        }
+.container h3{
+    text-align: center;
+}
+        .form-group {
+            text-align: center;
+        }
+
+        .form-group input {
+            display: block;
+            padding: 2px 2px;
+            margin: 4px auto;
+            width: 200px;
+            border: 2px solid black;
+            text-align: center;
+            border-radius: 5px;
+
+        }
+
+        .form-group button {
+            margin: 2px 2px;
+            padding: 2px 2px;
+        }
+        .ip{
+            background-color: rgb(66, 64, 64);
+            border-radius: 5px;
+            font-family: 'Baloo Bhai 2', cursive;
+            width: 210px;
+            cursor:pointer;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="image/logo3.png" alt="">
+            <div>THE AD GYM</div>
+        </div>
+        <!-- mid is for navgation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Member Experience</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        </div>
+        <!-- right is for search or buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+            <h3>JOIN THE BEST GYM OF OGNA</h3>
+            <form action="Noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="text" placeholder="Enter Your Email id">
+                <input type="text" placeholder="Enter Your Mobile No.">
+                <input type="text" placeholder="Enter Your Age ">
+                <input type="text" placeholder="Enter Your Gender">
+                <input type="text" placeholder="Enter Your Locality">
+                <button class="ip">Submit</button>   
+            </form>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
